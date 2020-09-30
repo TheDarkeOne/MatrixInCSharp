@@ -9,10 +9,10 @@ namespace MatrixInCSharp
     {
         public int runs;
         public int Cols2Print = 119;
-        volatile char[] line;
+        readonly char[] line;
         public string alpha1 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        Semaphore semaphore;
-        Semaphore sem;
+        readonly Semaphore semaphore;
+        readonly Semaphore sem;
 
         public Matrix()
         {
