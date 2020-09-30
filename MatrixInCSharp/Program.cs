@@ -43,7 +43,6 @@ namespace MatrixInCSharp
                     sem.Release(1);
                 }
             }
-            Thread.Sleep(5);
         }
 
         static void Main(string[] args)
